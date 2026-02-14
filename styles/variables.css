@@ -1,15 +1,15 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 
 :root {
-    --main_font: Inter-Variable, sans-serif;
-    --accent_font: PressStart2P, sans-serif;
+    --main_font: Inter-Variable;
+    --accent_font: PressStart2P;
     --main_font-size: 18px;
     --main_font-wheight: 410;
     --title_font-wheight: 715;
-    --container-width: clamp(375px, 100%, 700px);
+    --container_width: clamp(375px, 100%, 700px);
     --main_color: #1a1a1a;
-    --background-color: #fff;
-    --accent-color: #1a1a1a;
-    --contour-color: #1a1a1a;
-    --animation-fill-color: #FF0000;
+    --background_color: #fff;
+    --accent_color: #1a1a1a;
+    --contour_color: #1a1a1a;
+    --animation_fill-color: #FF0000;
 }
