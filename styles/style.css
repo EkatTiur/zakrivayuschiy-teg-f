@@ -52,7 +52,7 @@
 }
 
 .content-card {
-  margin: 0 auto 52px auto;
+  margin: 0 auto 52px;
   display: grid;
 }
 
@@ -323,7 +323,7 @@ dialog:not([open]) {
 } 
 
 dialog::backdrop {
-  background-color: rgb(0 0 0 / 75%);
+  background-color: rgb(0 0 0 / 0.75);
 } 
 
 @media (width > 376px) {
@@ -332,29 +332,29 @@ dialog::backdrop {
     min-block-size: 368px;
   }
     
-.header_title {
-  font-size: 65px;
+  .header_title {
+    font-size: 65px;
   }
 
-.header_subtitle {
-  font-size: 23px;
+  .header_subtitle {
+    font-size: 23px;
   }
 
-.saving-button {
-  flex-direction: row;
-  padding: 16px 18px;
-  min-inline-size: 335px;
+  .saving-button {
+    flex-direction: row;
+    padding: 16px 18px;
+    min-inline-size: 335px;
   }
 
-.floppy {
-  width: 21px;
-  height: 21px
-}
+  .floppy {
+    width: 21px;
+    height: 21px
+  }
 
-dialog {
-  max-inline-size: 353px;
-  padding: 28px;
-}
+  dialog {
+    max-inline-size: 353px;
+    padding: 28px;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
