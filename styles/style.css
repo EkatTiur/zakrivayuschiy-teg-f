@@ -88,6 +88,7 @@
 }
 
 @supports((text-stroke: 1px var(--accent_color)) or (-webkit-text-stroke: 1px var(--accent_color))) {
+  
   .label {
     -webkit-text-stroke: 1px var(--accent_color);
     text-stroke: 1px var(--accent_color);
@@ -323,6 +324,7 @@ dialog::backdrop {
 } 
 
 @media (width > 376px) {
+
   .header {
     min-block-size: 368px;
   }
@@ -353,6 +355,7 @@ dialog {
 }
 
 @media (prefers-reduced-motion: reduce) {
+
   .like-icon.is-liked .heart {
     animation: none;
   }

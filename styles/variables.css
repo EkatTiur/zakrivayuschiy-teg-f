@@ -1,8 +1,8 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 
 :root {
-    --main_font: Inter-Variable;
-    --accent_font: PressStart2P;
+    --main_font: 'Inter-Variable';
+    --accent_font: 'PressStart2P';
     --main_font-size: 18px;
     --main_font-wheight: 410;
     --title_font-wheight: 715;
@@ -11,5 +11,5 @@
     --background_color: #fff;
     --accent_color: #1a1a1a;
     --contour_color: #1a1a1a;
-    --animation_fill-color: #FF0000;
+    --animation_fill-color: #F00;
 }
