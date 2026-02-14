@@ -57,7 +57,7 @@
 }
 
 .content-card_title {
-  font-variation-settings: var(--main_font-wheight);
+  font-variation-settings: var(--title_font-wheight);
   font-size: var(--main_font-size);
   padding: 4px 10px;
 }
@@ -146,7 +146,7 @@
   transition: box-shadow 0.3s ease;
   position: relative;
   overflow: hidden;
-  cursor: pointer; 
+  cursor: pointer;
 }
 
 .button:focus {
@@ -347,8 +347,8 @@ dialog {
 }
 }
 
-@media (prefers-reduced-motion: reduce) { 
-  .like-icon.is-liked .heart { 
+@media (prefers-reduced-motion: reduce) {
+  .like-icon.is-liked .heart {
     animation: none;
   }
 
