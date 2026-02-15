@@ -287,10 +287,6 @@
   padding: 15px 18px;
 }
 
-dialog {
-  display: none;
-}
-
 .saving_dialog {
   inline-size: clamp(341px 100% 353px);
   padding: 28px 38px;
@@ -320,6 +316,7 @@ dialog svg.floppy {
 dialog:not([open]) {
   pointer-events: none;
   opacity: 0;
+  display: none;
 } 
 
 dialog::backdrop {
